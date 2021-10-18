@@ -1,13 +1,13 @@
 # Classification of GTZAN dataset
 
 ## Description:
-This project can be used to:\
+This project can be used to:
 1. Extract data-type features from a single music file. Features extracted include: Chromatogram CQT, STFT, CENS, Root Mean Square Energy,
-   Spectral Centroid, Spectral Bandwidth, Spectral Rolloff, zero crossing rate, mel-frequency cepstral coefficients, etc.\
-2. Extract the above features of a batch of music files.\
-3. Edit the extracted feature file and store it in a CSV file.\
-4. Users can use their own feature data files or the feature data files existing in the project to classify GTZAN data sets.\
-5. This project uses fully connected DNN as the classification tool, and users can customize the form of DNN, that is, whether to call \
+   Spectral Centroid, Spectral Bandwidth, Spectral Rolloff, zero crossing rate, mel-frequency cepstral coefficients, etc.
+2. Extract the above features of a batch of music files.
+3. Edit the extracted feature file and store it in a CSV file.
+4. Users can use their own feature data files or the feature data files existing in the project to classify GTZAN data sets.
+5. This project uses fully connected DNN as the classification tool, and users can customize the form of DNN, that is, whether to call 
    the dropout layer to alleviate the overfitting of DNN.All the neural networks in this project have been debugged and can be used directly,
    and they perform well on the GTZAN data set.
    
@@ -43,10 +43,10 @@ Using the neural network in this project to classify the GTZAN data set, the tra
 seconds without the acceleration of GPU.\
 Using the neural network without Dropout processing, the model will overfit the training data and perform well in the training set, but not in the test set, 
 with a test accuracy of about 66%. However, after using the neural network processed by Dropout, the model has been greatly improved, the phenomenon of overfitting
-has been significantly alleviated, and the performance in the test set has been increased from 66% at the beginning to 75.5%.\
+has been significantly alleviated, and the performance in the test set has been increased from 66% at the beginning to 75.5%.
 
 ## Support:
-If you have any questions or problems of using this project, please contact qiang.wang@ucdconnect.ie\
+If you have any questions or problems of using this project, please contact qiang.wang@ucdconnect.ie
 
 ## Contributing:
 This project can be used to directly classify the GTZAN dataset or similar datasets. Feature extraction script in the project can be directly used to extract the 
