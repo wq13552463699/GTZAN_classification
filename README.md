@@ -51,4 +51,4 @@ If you have any questions or problems of using this project, please contact qian
 ## Contributing:
 This project can be used to directly classify the GTZAN dataset or similar datasets. Feature extraction script in the project can be directly used to extract the 
 features of various music files. The application method is very simple. Users can take part of the script in the project according to their own needs, and then 
-implement them in their own project.
+implement them in their own project
